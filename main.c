@@ -2,11 +2,13 @@
 
 int main(void)
 {
- int a;
- printf("Input the second : ");
- scanf ("%i", &a);
+    int a;
 
- printf("Time is %i:%i\n", a/60, a%60);
+    printf("Input the year : ");
+    scanf("%i", &a);
 
- return 0;
+    printf("Is the year %i a leap year? : %i\n" , a, ((a%4==0)&&(a%100!=0)) || (a%400==0));
+
+
+     return 0;
 }
