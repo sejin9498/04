@@ -17,5 +17,4 @@ int main(void)
     }
     printf("The result is : %i\n", b);
 
-    return 0;
 }
