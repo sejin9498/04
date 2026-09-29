@@ -2,26 +2,11 @@
 
 int main(void)
 {
- int a, b;
- printf("Input two integers:");
- scanf("%i %i", &a, &b);
- 
-int c;
- c = a + b;
- printf("%i + %i = %i\n", a, b, c);
+ int a;
+ printf("Input the second : ");
+ scanf ("%i", &a);
 
- c = a - b;
- printf("%i - %i = %i\n", a, b, c);
- 
- c = a * b;
- printf("%i * %i = %i\n", a, b, c);
- 
- c = a / b;
- printf("%i / %i = %i\n", a, b, c);
- 
- c = a % b;
- printf("%i %% %i = %i\n", a, b, c);
- 
+ printf("Time is %i:%i\n", a/60, a%60);
 
  return 0;
 }
